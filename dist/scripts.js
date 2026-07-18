@@ -129,13 +129,13 @@
             form.reset();
             form.hidden = true;
             formStatus.className = 'form-status success';
-            formStatus.textContent = 'Thanks — your enquiry has been sent. We'll be in touch shortly.';
+            formStatus.textContent = 'Thanks — your enquiry has been sent. We will be in touch shortly.';
           } else {
             showError('Sorry, something went wrong sending your enquiry.');
           }
         })
         .catch(function () {
-          showError('Sorry, we couldn't send your enquiry.');
+          showError('Sorry, we could not send your enquiry.');
         })
         .then(function () {
           if (submitBtn) submitBtn.disabled = false;
