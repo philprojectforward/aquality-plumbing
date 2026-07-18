@@ -1,0 +1,12 @@
+{
+  "projects": {
+    "default": "projectforward-web"
+  },
+  "targets": {
+    "projectforward-web": {
+      "hosting": {
+        "aquality-plumbing": ["aquality-plumbing"]
+      }
+    }
+  }
+}

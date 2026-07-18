@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://aquality-plumbing.web.app/sitemap.xml
